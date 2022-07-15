@@ -1,0 +1,203 @@
+*{
+    font-family: sans-serif;
+    margin:0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+html{
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+body{
+    background-color: #fff;
+    margin-top: .8rem;
+}
+.logo{
+    margin-left: 1.5rem;
+    float: left;
+}
+.logo img{
+   height:3.7rem;
+
+}
+nav{
+    display: block;
+    justify-content: center;
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 10rem;
+    
+}
+nav a{
+    margin-left: 7rem;margin-top: .7rem;
+    font-size: 1.2rem;
+    align-items: center;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+
+    
+}
+.tabs{
+    margin-left: 1.5rem;margin-top: .8rem;
+    position: absolute;
+    right:1.5rem;
+}
+.tabs a:first-child{
+color: black;
+background-color: white;
+padding: 1rem .5rem;
+border: .1rem solid black;
+}
+.tabs a{
+    background-color: black;
+    color: white;padding: 1.2rem 1rem;
+    border:.1rem solid white;margin-left: 1.2rem;
+    }
+    .container{
+        margin-top: 2rem;
+        display: flex;
+        position: relative;
+    }
+    .container .text{
+        margin-top: 12rem;
+    }
+    .container .text a:first-child{
+        font-size: 2.5rem;line-height: 3.2rem;
+        font-weight: bolder;word-spacing: .6rem;
+    }
+    .container .text p{
+font-size: 1rem;
+margin: 1rem;cursor: pointer;
+margin-bottom: 4rem;
+    }
+    .container .text a:last-child{
+        font-size: 1.2rem;margin: 2rem;
+        font-weight: bolder;padding:1rem 3.8rem;
+        color:white;margin-top: 20rem;
+        background-color: black;
+    }
+    .container .image{
+        display: flex;
+        margin-left: 1.4rem; margin-right: 0;
+       position: absolute;right: -6rem;
+    }
+    .container .image img{
+        
+        width: 60rem;height: 50rem;
+        
+    }
+    .sponsors{
+        clear: both;margin-top: 23.5rem;
+        
+        justify-content: space-between;
+    }
+    .sponsors span{
+        text-align: center;
+        font-size: 1.3rem;display: grid;
+        margin-bottom: 5rem;
+    }
+    .company{
+        display: flex;
+    } 
+    .company a img{
+        margin-left: 2.3rem;
+        width: 70%;
+        margin-bottom: 7rem;
+    }
+    .box a{
+        margin-top: 5rem;margin-bottom: 5rem;
+        text-align: center;
+        font-size: 1.5rem;color: black;
+        font-weight: bolder;margin: auto;display: grid;
+    }
+    .box .boxes{
+        background-color: black;width: 70%;
+        height: 20rem;margin: auto;
+        display: flex;
+        border-radius: .5rem;
+margin-top:4rem ;
+    }
+    .boxes .leftbox a{
+color: white;
+font-size: 1.2rem;
+    }
+    .boxes .leftbox .review img{
+      width: 40%;position: absolute;bottom:2.5rem;left:1rem ;
+    }
+    .boxes .leftbox{
+        padding: 2rem;position: relative;width: 60%;
+    }
+    .boxes .rightbox {
+        border-left: .1em dashed white;
+        padding: 2rem;position: relative;width: 40%;
+    }
+    .boxes .rightbox a{
+        color: white;
+        font-size: 1.2rem;
+        
+            }
+            .boxes .rightbox .flex{
+                display: flex;position: absolute;
+                bottom: 2rem;gap: 1rem;
+            }
+            .steps a{
+                display:grid;margin-top: 4rem;
+                text-align: center;font-size: 2rem;font-weight: bolder;
+            }
+            .steps .step{
+                display: flex;
+                gap: 1.5rem;
+                margin:auto ;
+            }
+            .steps .step .process{
+                display: grid;margin: 2rem;padding: 1rem;align-items: center;
+text-align: center;
+            }
+            .steps .step .process span{
+               font-size: 1.2rem;
+               font-weight: bold;
+            }
+            .comment a{
+                display: grid;
+                text-align: center;
+                font-size: bold;
+            }
+            .comment .boxes{
+                display: flex;
+                gap: 1.2rem;
+                font-size: 2rem;
+                margin-top: 4rem;
+            }
+            .comment .boxes .box{
+                display: grid;
+                border: .1rem solid black;
+                background: black;
+            }
+            .comment .boxes .box p{
+                color: white;
+                font-size: 1.4rem;padding: 1.2rem;
+  line-height: 1.8rem;
+            }
+            .comment .boxes .box span{
+font-size: 2.3rem;font-weight: 650;margin-top: 2rem;
+                color: white;display: grid;text-align: center;margin: auto;
+                background-color: tomato;padding: 1rem;align-items: center;
+                border-radius: 50%;width: 4rem;height: 4rem;line-height: 4rem;
+            }
+            .footer{
+                margin-top: 8rem;
+                position: relative;
+            }
+            .footer .logo{
+                margin-top: 5rem;
+                position: absolute;bottom: 1rem;left: 2.3rem;
+            }
+            .footer .email{
+                margin-top: 5rem;display: flex;
+                position: absolute;bottom: 1rem;right: 2rem;
+            }
